@@ -22,4 +22,4 @@ Sample
     Log     ${sum_output}
     Log To Console    ${sum_output}
 
-    Log To Console  ${test_id}
+    Log To Console  ${test_case}
