@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.15 on linux)" generated="2026-06-14T04:38:53.339205" rpa="false" schemaversion="5">
+<suite id="s1" name="Sample" source="/app/sample.robot">
+<test id="s1-t1" name="Test case using for the github :: AUT-TC-001" line="12">
+<kw name="Sample">
+<kw name="Extract Data From Excel" owner="sample">
+<msg time="2026-06-14T04:38:55.083337" level="INFO">${final_data} = [{'${test_id}': 'AUT-TC-001', '${test_case}': 'Adding two Numbers', '${num1}': 200, '${num2}': 300}]</msg>
+<var>${final_data}</var>
+<arg>${EXCEL}</arg>
+<arg>data</arg>
+<status status="PASS" start="2026-06-14T04:38:55.071483" elapsed="0.011926"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-06-14T04:38:55.084097" level="INFO">[{'${test_id}': 'AUT-TC-001', '${test_case}': 'Adding two Numbers', '${num1}': 200, '${num2}': 300}]</msg>
+<arg>${final_data}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-06-14T04:38:55.083767" elapsed="0.000400"/>
+</kw>
+<kw name="Add" owner="sample">
+<msg time="2026-06-14T04:38:55.084810" level="INFO">${sum_output} = 500</msg>
+<var>${sum_output}</var>
+<arg>${num1}</arg>
+<arg>${num2}</arg>
+<status status="PASS" start="2026-06-14T04:38:55.084445" elapsed="0.000408"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-06-14T04:38:55.085244" level="INFO">500</msg>
+<arg>${sum_output}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-06-14T04:38:55.085050" elapsed="0.000254"/>
+</kw>
+<arg>test_id=AUT-TC-001</arg>
+<arg>test_case=Adding two Numbers</arg>
+<arg>num1=200</arg>
+<arg>num2=300</arg>
+<status status="PASS" start="2026-06-14T04:38:55.069761" elapsed="0.015683"/>
+</kw>
+<status status="PASS" start="2026-06-14T04:38:55.067805" elapsed="0.017889"/>
+</test>
+<doc>This robot framework used for github work</doc>
+<status status="PASS" start="2026-06-14T04:38:53.345073" elapsed="1.741270"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Sample">Sample</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

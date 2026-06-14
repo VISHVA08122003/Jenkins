@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.1 (Python 3.10.0 on win32)" generated="2026-06-13T16:40:23.473746" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.1 (Python 3.10.0 on win32)" generated="2026-06-14T10:01:42.984359" rpa="false" schemaversion="5">
 <suite id="s1" name="Sample" source="D:\github robot\sample.robot">
 <test id="s1-t1" name="Test case using for the github :: AUT-TC-001" line="12">
 <kw name="Sample">
 <kw name="Extract Data From Excel" owner="sample">
-<msg time="2026-06-13T16:40:25.527780" level="INFO">${final_data} = [{'${test_id}': 'AUT-TC-001', '${test_case}': 'Adding two Numbers', '${num1}': 200, '${num2}': 300}]</msg>
+<msg time="2026-06-14T10:01:48.594853" level="INFO">${final_data} = [{'${test_id}': 'AUT-TC-001', '${test_case}': 'Adding two Numbers', '${num1}': 200, '${num2}': 300}]</msg>
 <var>${final_data}</var>
 <arg>${EXCEL}</arg>
 <arg>data</arg>
-<status status="PASS" start="2026-06-13T16:40:25.510849" elapsed="0.016931"/>
+<status status="PASS" start="2026-06-14T10:01:48.520464" elapsed="0.074389"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2026-06-13T16:40:25.527780" level="INFO">[{'${test_id}': 'AUT-TC-001', '${test_case}': 'Adding two Numbers', '${num1}': 200, '${num2}': 300}]</msg>
+<msg time="2026-06-14T10:01:48.594853" level="INFO">[{'${test_id}': 'AUT-TC-001', '${test_case}': 'Adding two Numbers', '${num1}': 200, '${num2}': 300}]</msg>
 <arg>${final_data}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2026-06-13T16:40:25.527780" elapsed="0.000000"/>
+<status status="PASS" start="2026-06-14T10:01:48.594853" elapsed="0.000000"/>
 </kw>
 <kw name="Add" owner="sample">
-<msg time="2026-06-13T16:40:25.532601" level="INFO">${sum_output} = 500</msg>
+<msg time="2026-06-14T10:01:48.594853" level="INFO">${sum_output} = 500</msg>
 <var>${sum_output}</var>
 <arg>${num1}</arg>
 <arg>${num2}</arg>
-<status status="PASS" start="2026-06-13T16:40:25.527780" elapsed="0.004821"/>
+<status status="PASS" start="2026-06-14T10:01:48.594853" elapsed="0.000000"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2026-06-13T16:40:25.532601" level="INFO">500</msg>
+<msg time="2026-06-14T10:01:48.594853" level="INFO">500</msg>
 <arg>${sum_output}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2026-06-13T16:40:25.532601" elapsed="0.000000"/>
+<status status="PASS" start="2026-06-14T10:01:48.594853" elapsed="0.002959"/>
 </kw>
 <arg>test_id=AUT-TC-001</arg>
 <arg>test_case=Adding two Numbers</arg>
 <arg>num1=200</arg>
 <arg>num2=300</arg>
-<status status="PASS" start="2026-06-13T16:40:25.509203" elapsed="0.023398"/>
+<status status="PASS" start="2026-06-14T10:01:48.518406" elapsed="0.079406"/>
 </kw>
-<status status="PASS" start="2026-06-13T16:40:25.505786" elapsed="0.026815"/>
+<status status="PASS" start="2026-06-14T10:01:48.514425" elapsed="0.083387"/>
 </test>
 <doc>This robot framework used for github work</doc>
-<status status="PASS" start="2026-06-13T16:40:23.477272" elapsed="2.055329"/>
+<status status="PASS" start="2026-06-14T10:01:42.988385" elapsed="5.614473"/>
 </suite>
 <statistics>
 <total>
