@@ -20,3 +20,4 @@ Sample
 
     ${sum_output}   add     ${num1}     ${num2}
     Log     ${sum_output}
+    Log To Console  ${test_id}
